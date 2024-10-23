@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Torneio de Ciclismo</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" 
+    content="IE=edge">
+    <meta name="viweport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Portifolio com css</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 1%;
+            background-image: url(ciclismo2.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 210vh;
+      
+        }
+
+        main {
+            background-color: white;
+          width: 600px;
+          padding: 3%;
+          margin: auto;
+          border: 1px solid darkblue;
+          border-radius: 15px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <main>
+            <div class="titulo"> 
+                <h2>Se inscreva no maior evento de Ciclismo da atualidade!</h2>
+            
+            </div>
+            
+            <h3>Faça sua inscrição abaixo ⬇️</h3>
+              
+            <form action="/cadastrarparticipante">
+                 <h4>📅Seus dados</h4>
+        
+                <label for="nome-participante">Nome</label>
+                <input id="nome-participante" type="text" placeholder="Nome completo" >
+                <br />
+                <label for="Contato-participante">Contato</label>
+                <input id="Contato-participante" type="text" placeholder="(xx) x xxxx-xxxx" >
+                <br />
+                <label for="email-participante">Email</label>
+                <input id="email-participante" type="text" placeholder="...@gmail.com">
+                <br />
+                <label for="Data-de-nascimento">Data de Nascimento</label>
+                <input type="date">
+                <br />
+                
+                <h4>🚴‍♀️Escolha a modalidade</h4>
+                 <input name="estilo" id="radioopt1" type="radio">Mountain Bike<label for="radioopt1"></label>
+                 <br>
+                 <input name="estilo" id="radioopt2" type="radio">Ciclismo de Estrada<label for="radioopt2"></label>
+                <br />
+                
+                <h4>📈Qual seu nivel de experiência?</h4>
+                <input name="experiencia" id="radioopt1" type="radio">Iniciante<label for="radioopt1"></label>
+                 <br />
+                <input name="experiencia" id="radioopt2" type="radio">Intermediário<label for="radioopt2"></label>
+                <br />
+                <input name="experiencia" id="radioopt3" type="radio">Avançado<label for="radioopt3"></label>
+            
+                <h4>🥪Informe suas preferências de alimentos</h4>
+                <input name="comida" id="checkbox1" type="checkbox">Água<label for="checkbox1"></label>
+                <br />
+                <input name="comida" id="checkbox2" type="checkbox">Lanche rápido<label for="checkbox2"></label>
+                <br />
+                <input name="comida" id="checkbox3" type="checkbox">Lanche reforçado<label for="checkbox3"></label>
+                <br />
+                <input name="comida" id="checkbox4" type="checkbox">Refrigerante zero açúcar<label for="checkbox4"></label>
+                <br />
+                <input name="comida" id="checkbox5" type="checkbox">Barra protéica<label for="checkbox5"></label>
+        
+                <h4>Você concorda com nossos termos de participação?</h4>
+                <h6>Inscrição: A participação no torneio é aberta a ciclistas amadores e profissionais. Todos os participantes devem realizar a inscrição no prazo estipulado pela organização, mediante o pagamento da taxa correspondente.
+        
+                    Equipamentos: É obrigatório o uso de capacete e demais equipamentos de segurança adequados durante todo o percurso. A organização não se responsabiliza por acidentes decorrentes do não uso desses itens.
+                    
+                    Categorias: Os participantes serão divididos em categorias de acordo com a faixa etária e o nível de experiência, conforme descrito no regulamento oficial do torneio.
+                    
+                    Regras de Conduta: Os ciclistas devem respeitar as sinalizações, os regulamentos da prova e as orientações da equipe organizadora. Comportamentos antidesportivos ou desrespeitosos poderão resultar em desclassificação imediata.
+                    
+                    Saúde e Condições Físicas: Ao se inscrever, o participante declara estar em boas condições de saúde para realizar a prova. É recomendável que os ciclistas realizem uma avaliação médica prévia.
+                    
+                    Premiação: Haverá premiação para os primeiros colocados de cada categoria. Os prêmios não são transferíveis e as decisões da organização são definitivas.
+                    
+                    Cancelamento ou Alterações: A organização se reserva o direito de cancelar ou alterar o evento em caso de condições climáticas adversas ou outras situações imprevistas que possam comprometer a segurança dos participantes.</h6>
+                    <input name="escolha" id="radio1" type="radio">Eu li e concordo<label for="radio1"></label>
+                    <br />
+                    <input name="escolha" id="radio2" type="radio">Eu li e não concordo<label for="radio2"></label>
+                    <br /><br>
+        
+            
+                <input type="submit" value="Enviar">
+            
+        
+            </form>  
+         </main>
+          
+    </body>
+
+</html>
